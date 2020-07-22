@@ -18,5 +18,12 @@ cd build && meson --configure '-Ddri-drivers=nouveau, i915, i965, r200, r100,' -
  
  
  Данные варианты я оставляю для тех кто хочет собрать лучший видео драйвер если он модифицирован и имеет лучшее ускорение как это было ранее в моей убунту 16.04 и где рабочим сто процентов был директикс во всех программах.
+ 
+  _______________________________________________________________________________________________________________________________________________
+ 
+ https://github.com/Griggorii/mesa-19.0.1_source_griggorii_mit_patent_llvm-7 install llvm-10
+ 
+ ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --includedir=/usr/include --enable-osmesa --with-dri-driverdir=/usr/lib/x86_64-linux-gnu/dri --with-dri-searchpath=/usr/lib/x86_64-linux-gnu/dri:$/dri:/usr/lib/dri --with-gallium-drivers=r300,r600,radeonsi,svga,swrast,ilo --enable-autotools --with-gallium-drivers=i915,nouveau,r300,r600,radeonsi,svga,swrast,virgl,swr,nouveau PYTHON3=/usr/bin/python3.8 --with-vulkan-drivers=intel,radeon  --enable-gbm --enable-gallium-llvm ac_cv_path_LLVM_CONFIG=llvm-config-10 --enable-nine --enable-vdpau --enable-va --enable-gles1 --enable-gles2 --enable-driglx-direct --enable-xa --with-dri-drivers=i915,i965,nouveau,radeon,r200,swrast --enable-omx-bellagio --with-egl-platforms=x11,drm,surfaceless,wayland
+
 
 
