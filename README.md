@@ -17,6 +17,8 @@ meson --prefix=/usr --wrap-mode=nodownload --buildtype=plain --sysconfdir=/etc -
       ..                 &&
 ninja
 
+Raw copy command https://raw.githubusercontent.com/Griggorii/mesa-configure-make-meson-example-tutorial/master/README.md
+
 _______________________________________________________________________________________________________________________________________
 
                                                                OLD 
