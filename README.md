@@ -47,6 +47,44 @@ meson --prefix=/usr '-Ddri-drivers=['"'"'r100'"'"','"'"'r200'"'"','"'"'nouveau'"
 ninja
 
 gallium swr bad not recomrndation libswrAVX.so problem build segfault
+
+Result configuration meson
+
+Configuring xa_tracker.h using configuration
+Message: Configuration summary:
+        
+        prefix:          /usr
+        libdir:          lib/x86_64-linux-gnu
+        includedir:      include
+        
+        OpenGL:          yes (ES1: no ES2: yes)
+        
+        OSMesa:          libOSMesa
+        
+        DRI platform:    drm
+        DRI drivers:     r100 r200 nouveau i915 i965
+        DRI driver dir:  /usr/lib/x86_64-linux-gnu/dri
+        
+        GLX:             DRI-based
+        
+        EGL:             yes
+        EGL drivers:     builtin:egl_dri2 builtin:egl_dri3
+        GBM:             yes
+        EGL/Vulkan/VL platforms:   x11 wayland surfaceless drm
+        
+        Vulkan drivers:  amd swrast intel
+        Vulkan ICD dir:  share/vulkan/icd.d
+        
+        llvm:            yes
+        llvm-version:    12.0.0
+        
+        Gallium drivers: swrast r300 r600 nouveau virgl svga d3d12 iris radeonsi zink
+        Gallium st:      mesa xa vdpau va nine clover
+        HUD lmsensors:   yes
+        
+        Shared-glapi:    yes
+
+Build targets in project: 373
 _______________________________________________________________________________________________________________________________________
 
                                                                OLD 
