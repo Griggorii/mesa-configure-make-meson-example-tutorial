@@ -48,7 +48,7 @@ ninja
 
 gallium swr bad not recomrndation libswrAVX.so problem build segfault
 
-Result configuration meson
+Result configuration meson example Ubuntu 20.04
 
 Configuring xa_tracker.h using configuration
 Message: Configuration summary:
