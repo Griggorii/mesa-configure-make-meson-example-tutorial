@@ -1,7 +1,7 @@
 # mesa-configure-make-meson-example-tutorial
 mesa , configure , make , meson , example , tutorial
 
-                                                            Ubuntu 18.04..20.04...22.10
+                                                  Ubuntu 18.04..20.04...22.10
 
 Architect griggorii only real technologies full pack objecive video driver my work , not any fictional parasitic distributions support real technology investments and donate dollar card VISA 4817 7601 8112 4706 my country does not invest in real technologies, but your countries can help so far I have been without food for five years, but in our country they have created fake IT companies where people get money, your audio stutters due to the lack of acm codec in wine find old code source msacm32 ubuntu 16.04
 
