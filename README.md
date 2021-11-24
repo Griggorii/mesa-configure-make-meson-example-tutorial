@@ -25,6 +25,28 @@ New experiment add old flag delete test cache test perfomance directory delete ~
 
 _______________________________________________________________________________________________________________________________________
 
+                                             Experimental ot recomendation add freedreno broadcom 24.11.2021
+                                             
+mkdir build &&
+cd    build &&
+
+meson --prefix=/usr '-Ddri-drivers=['"'"'r100'"'"','"'"'r200'"'"','"'"'nouveau'"'"','"'"'i915'"'"','"'"'i965'"'"']' -Ddri-drivers-path=/usr/lib/x86_64-linux-gnu/dri '-Ddri-search-path=/usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri' '-Dvulkan-drivers=['"'"'freedreno'"'"','"'"'broadcom'"'"','"'"'amd'"'"','"'"'swrast'"'"','"'"'intel'"'"']' -Dglvnd=true -Dshared-glapi=enabled -Dgallium-xvmc=disabled -Dgallium-omx=disabled -Db_ndebug=true -Dbuild-tests=true -Dglx-direct=true -Dgbm=enabled -Ddri3=enabled '-Dplatforms=auto, x11, wayland, haiku, android, windows' -Dgallium-extra-hud=true -Dgallium-vdpau=enabled -Dlmsensors=enabled -Dgallium-xa=enabled -Dllvm=enabled -Dgallium-opencl=icd -Dgallium-nine=true -Dgallium-va=enabled '-Dgallium-drivers=['"'"'lima'"'"','"'"'panfrost'"'"','"'"'tegra'"'"','"'"'etnaviv'"'"','"'"'v3d'"'"','"'"'kmsro'"'"','"'"'freedreno'"'"','"'"'vc4'"'"','"'"'swrast'"'"','"'"'r300'"'"','"'"'r600'"'"','"'"'nouveau'"'"','"'"'virgl'"'"','"'"'svga'"'"','"'"'d3d12'"'"','"'"'iris'"'"','"'"'radeonsi'"'"','"'"'zink'"'"']' -Dgles1=enabled -Dgles2=enabled -Dosmesa=true -Dvalgrind=enabled -Dvulkan-device-select-layer=true -Dvulkan-overlay-layer=true -Dprefix=/usr -Dlibdir=lib/x86_64-linux-gnu -Dlocalstatedir=/var -Dsysconfdir=/etc -Dbuildtype=plain -Dwrap_mode=nodownload -Dbackend=ninja -Dgallium-bellagio=enabled      \
+      ..                 &&
+ninja
+
+                                          Experimental ot recomendation add freedreno broadcom + gallium swr 24.11.2021
+                                          
+
+mmkdir build &&
+cd    build &&
+
+meson --prefix=/usr '-Ddri-drivers=['"'"'r100'"'"','"'"'r200'"'"','"'"'nouveau'"'"','"'"'i915'"'"','"'"'i965'"'"']' -Ddri-drivers-path=/usr/lib/x86_64-linux-gnu/dri '-Ddri-search-path=/usr/lib/x86_64-linux-gnu/dri:\$${ORIGIN}/dri:/usr/lib/dri' '-Dvulkan-drivers=['"'"'freedreno'"'"','"'"'broadcom'"'"','"'"'amd'"'"','"'"'swrast'"'"','"'"'intel'"'"']' -Dglvnd=true -Dshared-glapi=enabled -Dgallium-xvmc=disabled -Dgallium-bellagio=enabled -Db_ndebug=true -Dbuild-tests=true -Dglx-direct=true -Dgbm=enabled -Ddri3=enabled '-Dplatforms=auto, x11, wayland, haiku, android, windows' -Dgallium-extra-hud=true -Dgallium-vdpau=enabled -Dlmsensors=enabled -Dgallium-xa=enabled -Dllvm=enabled -Dgallium-opencl=icd -Dgallium-nine=true -Dgallium-nine=true -Dgallium-va=enabled -Dgallium-va=enabled '-Dgallium-drivers=['"'"'lima'"'"','"'"'panfrost'"'"','"'"'swr'"'"','"'"'tegra'"'"','"'"'etnaviv'"'"','"'"'v3d'"'"','"'"'kmsro'"'"','"'"'freedreno'"'"','"'"'vc4'"'"','"'"'swrast'"'"','"'"'r300'"'"','"'"'r600'"'"','"'"'nouveau'"'"','"'"'virgl'"'"','"'"'svga'"'"','"'"'d3d12'"'"','"'"'iris'"'"','"'"'radeonsi'"'"','"'"'zink'"'"']' -Dgles1=enabled -Dgles2=enabled -Dosmesa=true -Dvalgrind=enabled -Dvulkan-device-select-layer=true -Dvulkan-overlay-layer=true -Dprefix=/usr -Dlibdir=lib/x86_64-linux-gnu -Dlocalstatedir=/var -Dsysconfdir=/etc -Dbuildtype=plain -Dwrap_mode=nodownload -Dbackend=ninja      \
+      ..                 &&
+ninja
+
+gallium swr bad not recomrndation libswrAVX.so problem build
+_______________________________________________________________________________________________________________________________________
+
                                                                OLD 
 
                                                           22.07.2020
