@@ -19,6 +19,10 @@ ninja
 
 Raw copy command https://raw.githubusercontent.com/Griggorii/mesa-configure-make-meson-example-tutorial/master/README.md
 
+New experiment add old flag delete test cache test perfomance direcory delete ~/.cache/mesa_shader_cache 24.11.2021 
+
+-DDESABLE_SHADER_CACHE
+
 _______________________________________________________________________________________________________________________________________
 
                                                                OLD 
