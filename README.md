@@ -21,7 +21,7 @@ Raw copy command https://raw.githubusercontent.com/Griggorii/mesa-configure-make
 
 New experiment add old flag delete test cache test perfomance directory delete ~/.cache/mesa_shader_cache 24.11.2021 
 
--DDESABLE_SHADER_CACHE
+-DDISABLE_SHADER_CACHE
 
 _______________________________________________________________________________________________________________________________________
 
