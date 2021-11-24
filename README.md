@@ -27,7 +27,7 @@ New experiment add old flag delete test cache test perfomance directory delete ~
 
 _______________________________________________________________________________________________________________________________________
 
-                                 Experimental not recomendation add freedreno broadcom 24.11.2021
+                                 Experimental not recomendation add freedreno , broadcom 24.11.2021
                                              
 mkdir build &&
 cd    build &&
@@ -36,7 +36,7 @@ meson --prefix=/usr '-Ddri-drivers=['"'"'r100'"'"','"'"'r200'"'"','"'"'nouveau'"
       ..                 &&
 ninja
 
-                                 Experimental not recomendation add freedreno broadcom + gallium swr 24.11.2021
+                                 Experimental not recomendation add freedreno , broadcom + gallium swr 24.11.2021
                                           
 
 mmkdir build &&
